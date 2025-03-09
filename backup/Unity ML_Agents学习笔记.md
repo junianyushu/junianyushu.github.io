@@ -20,3 +20,4 @@ pip3 install -e ./ml-agents
 之后在unity中import官方已经训练好的3Dball模型，即可成功如图
 
 ![Image](https://github.com/user-attachments/assets/6a18fd4c-7a3d-4b66-b94c-29f05e76a1da)
+之后进入虚拟机 conda -activate uml
