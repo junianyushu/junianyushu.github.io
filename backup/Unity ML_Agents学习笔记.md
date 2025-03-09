@@ -8,7 +8,7 @@
 #创建虚拟机
 以管理员身份运行anaconda Prompt，然后输入conda create -n 【自己命名虚拟机】 python=3.10.12
 然后cd /d G:\ml-agents-release_21，如果安装在C盘，则不用/d
-然后输入conda -activate 【自己命名虚拟机】
+然后输入conda activate 【自己命名虚拟机】
 win+r输入cmd
 ``` C#
 pip3 install torch -f https://download.pytorch.org/whl/torch_stable.html
@@ -20,4 +20,4 @@ pip3 install -e ./ml-agents
 之后在unity中import官方已经训练好的3Dball模型，即可成功如图
 
 ![Image](https://github.com/user-attachments/assets/6a18fd4c-7a3d-4b66-b94c-29f05e76a1da)
-之后进入虚拟机 conda -activate uml
+之后进入虚拟机 conda activate uml

@@ -104,7 +104,7 @@ body{box-sizing: border-box;min-width: 200px;max-width: 900px;margin: 20px auto;
 #创建虚拟机<br>
 以管理员身份运行anaconda Prompt，然后输入conda create -n 【自己命名虚拟机】 python=3.10.12<br>
 然后cd /d G:\ml-agents-release_21，如果安装在C盘，则不用/d<br>
-然后输入conda -activate 【自己命名虚拟机】<br>
+然后输入conda activate 【自己命名虚拟机】<br>
 win+r输入cmd</p>
 <div class="highlight highlight-source-cs"><pre class="notranslate"><span class="pl-smi">pip3</span> <span class="pl-s1">install</span><span class="pl-kos"></span> <span class="pl-s1">torch</span> <span class="pl-c1">-</span><span class="pl-s1">f</span> https<span class="pl-c1">:</span><span class="pl-c">//download.pytorch.org/whl/torch_stable.html</span>
 pip3 install <span class="pl-c1">-</span>e <span class="pl-kos">.</span><span class="pl-c1">/</span><span class="pl-s1">ml</span><span class="pl-c1">-</span><span class="pl-s1">agents</span><span class="pl-c1">-</span><span class="pl-s1">envs</span>
@@ -113,7 +113,7 @@ pip3 install <span class="pl-c1">-</span>e <span class="pl-kos">.</span><span cl
 之后创建一个Unity项目，在packmanager里面选择从磁盘导入包找到\ml-agents-release_21\com.unity.ml-agents\package.json以及\ml-agents-release_21\com.unity.ml-agents-extensive\package.json导入<br>
 之后在unity中import官方已经训练好的3Dball模型，即可成功如图</p>
 <p><a target="_blank" rel="noopener noreferrer" href="https://github.com/user-attachments/assets/6a18fd4c-7a3d-4b66-b94c-29f05e76a1da"><img src="https://github.com/user-attachments/assets/6a18fd4c-7a3d-4b66-b94c-29f05e76a1da" alt="Image" style="max-width: 100%;"></a><br>
-之后进入虚拟机 conda -activate uml</p></div>
+之后进入虚拟机 conda activate uml</p></div>
 <div style="font-size:small;margin-top:8px;float:right;"></div>
 
 </div>
